@@ -12,7 +12,7 @@ opción y la estaba desaprovechando.<br><br>
 Ayer decidí usar *Jekyll* por la fama que tiene de ser fácil y al final ha
 resultado ser mas *Mr. Hyde* pero bueno, ese es otro tema. Al final he dejado
 el tema que tiene por defecto, ya que funciona perfecto con posts y para añadir
-páginas fijas en la cabezera (Además venía con los enlaces de GitHub y Twitter
+páginas fijas en la cabecera (Además venía con los enlaces de GitHub y Twitter
 debajo, que son los únicos que necesitaba 😀).<br><br>
 Si encuentras algo de tu interés bienvenido seas (sino también). Mi finalidad no
 es que me lea el mayor número de personas posibles, es tener en algún sitio todo
@@ -20,3 +20,7 @@ lo que vaya documentando para tenerlo a mano y de paso poder ayudar a quien lo
 necesite.
 
 Con esto me despido, ¡Saludos!
+<hr>
+**Edit**: al final parece que Jekyll si que tiene su encanto, en un futuro iré
+modificando la web según mi gusto, pero no creo que cambie el tema. Este me ha
+gustado.

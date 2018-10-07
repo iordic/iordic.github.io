@@ -4,3 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+Bienvenido a mi blog, en él iré subiendo posts de los temas que me apetezca
+realizar documentación o entrar en profundidad, mayormente relacionados con la
+informática. Publicaré cuando tenga algo interesante y no de forma periódica.<br>

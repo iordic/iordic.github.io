@@ -173,3 +173,4 @@ Vamos a analizarlo desde arriba:
 * [[GUIDE] Smali coding guide for beginners](https://forum.xda-developers.com/showthread.php?t=2193735)
 * [Página de dedexer](http://dedexer.sourceforge.net/)
 * [Página de Jasmin](http://jasmin.sourceforge.net/)
+* [[Tutorial] Modificacion y sintaxis de los Smalis](https://www.esp-desarrolladores.com/showthread.php?t=4267)

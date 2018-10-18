@@ -4,9 +4,12 @@
 .highlight {
   background: #fff;
   @extend %vertical-rhythm;
+  // Arreglo para sintaxis
+  color: #f2f1ba;
 
   .highlighter-rouge & {
-    background: #eef;
+    //background: #eef;
+    background: #210e05;
   }
 
   .c     { color: #998; font-style: italic } // Comment

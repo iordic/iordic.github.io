@@ -252,4 +252,10 @@
       @include relative-font-size(1.125);
     }
   }
+
+  /* Añadido para centrar las imagenes en los posts */
+  p > img {
+    margin: 0 auto;
+    display: block;
+  }
 }

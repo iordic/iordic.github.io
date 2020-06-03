@@ -4,12 +4,17 @@ title: Sobre mí
 permalink: /about/
 ---
 <link rel="stylesheet" type="text/css" href="/css/about.css">
+<style>
+    #carita:hover {
+        color: red;
+    }
+</style>
 <img id="avatar_image" src="/assets/avatar.png" /><br>
 
 <h1 id="titulo">{{page.title}}</h1>
 Me gusta la informática y la electrónica, aunque de lo segundo ya me he vuelto
 más cómodo, pero a veces monto cosas con Arduino y Raspberry Pi (sabía hacer
-cosas con microcontroladores PIC 😢).<br>
+cosas con microcontroladores PIC <span id="carita" secret="aHR0cHM6Ly9pb3JkaWMuZ2l0aHViLmlvL3NhbHRhcGFjb3MuaHRtbA==">😢</span>).<br>
 De informática me gusta la programación y los temas que tratan sobre ciberseguridad.
 
 ### Formación académica

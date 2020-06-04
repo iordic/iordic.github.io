@@ -14,7 +14,7 @@ permalink: /about/
 <h1 id="titulo">{{page.title}}</h1>
 Me gusta la informática y la electrónica, aunque de lo segundo ya me he vuelto
 más cómodo, pero a veces monto cosas con Arduino y Raspberry Pi (sabía hacer
-cosas con microcontroladores PIC <span id="carita" secret="aHR0cHM6Ly9pb3JkaWMuZ2l0aHViLmlvL3NhbHRhcGFjb3MuaHRtbA==">😢</span>).<br>
+cosas con microcontroladores PIC <span id="carita" secret="aHR0cHM6Ly9pb3JkaWMuZ2l0aHViLmlvL3NlY3JldC9zYWx0YXBhY29zLw==">😢</span>).<br>
 De informática me gusta la programación y los temas que tratan sobre ciberseguridad.
 
 ### Formación académica

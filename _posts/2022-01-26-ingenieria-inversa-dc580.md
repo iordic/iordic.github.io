@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Ingeniería inversa sobre software de FNIRSI"
-description: "Post sobre comparativas de cifrado simétrico vs asimétrico"
+description: "Un caso práctico de reversing sobre software en .NET"
 date:   2022-01-26 20:00
-categories: criptografía cifrado simétrico asimétrico seguridad
+categories: reversing
 ---
 ¿Qué es eso te preguntarás? Hace un par de meses compré un cacharro de AliExpress con la 
 idea de usarlo para hacer una fuente de alimentación regulable barata. Vi que existía el 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Primeras impresiones del Flipper Zero"
 description: "Opinión personal sobre el flipper zero"
-date:   2022-09-18 17:30
+date:   2022-09-18 12:30
 categories: electronica
 ---
 Como algunos sabréis estos últimos días me llegó el Flipper Zero. Yo personalmente hacía

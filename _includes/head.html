@@ -9,4 +9,7 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  {%- if page.twitter-thread %}
+    {%- include twitter_threads.html -%}
+  {% endif %}
 </head>

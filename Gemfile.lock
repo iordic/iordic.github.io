@@ -83,6 +83,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -95,6 +96,7 @@ DEPENDENCIES
   minima (~> 2.0)
   rexml (>= 3.2.5)
   tzinfo-data
+  webrick
 
 BUNDLED WITH
    2.2.22

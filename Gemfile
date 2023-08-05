@@ -32,3 +32,4 @@ gem "jekyll-seo-tag"
 gem "rexml", ">= 3.2.5"
 gem "kramdown", ">= 2.3.1"
 gem 'jemoji'
+gem 'webrick'

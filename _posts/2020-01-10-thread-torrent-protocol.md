@@ -23,11 +23,11 @@ separados. Allá vamos.
 <div class="thread">
     <div class="tweet">
         <p>
-            Pues aquí viene, dije que haría un hilo sobre #torrent. Poneos el parche, vamos a bajar a
+            Pues aquí viene, dije que haría un hilo sobre <span class="twitter-hashtag">#torrent</span>. Poneos el parche, vamos a bajar a
             la bodega virtual de las redes p2p en este hilo de torrent para dummies (el protocolo 
             bittorrent, no ese pueblo tan chulo de Valencia). Abro hilo. 😀👇
         </p>
-        <span>1 / 23</span>
+        <span class="number-marker">1 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -35,7 +35,7 @@ separados. Allá vamos.
             en día para piratear son bajarte los ficheros de alguna web, el uso de servicios de 
             streaming o el uso de torrent (u otros sistemas p2p).
         </p>
-        <span>2 / 23</span>
+        <span class="number-marker">2 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -44,7 +44,7 @@ separados. Allá vamos.
             iguales. Primero veamos el esquema con servidor intermediario:
         </p>
         <img src="{{site.url}}/assets/twitter/torrent/torrent-thread1.png" alt="Compartir ficheros mediante servidor" title="Piratería centralizada">
-        <span>3 / 23</span>
+        <span class="number-marker">3 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -52,7 +52,7 @@ separados. Allá vamos.
             personas acceden a ese servidor para descargarlo, en el caso de streaming es lo mismo 
             (técnicamente es una descarga temporal, no le déis mucha importancia).
         </p>
-        <span>4 / 23</span>
+        <span class="number-marker">4 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -62,7 +62,7 @@ separados. Allá vamos.
         original.
         </p>
         <img src="{{site.url}}/assets/twitter/torrent/torrent-thread2.png" alt="Compartir ficheros mediante p2p con tracker" title="Piratería descentralizada">
-        <span>5 / 23</span>
+        <span class="number-marker">5 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -70,7 +70,7 @@ separados. Allá vamos.
             par, cada máquina ejerce de cliente y al mismo tiempo de servidor, es decir, descarga el 
             contenido y al mismo tiempo se lo transfiere a otros.
         </p>
-        <span>6 / 23</span>
+        <span class="number-marker">6 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -79,7 +79,7 @@ separados. Allá vamos.
             totalmente caótica (de hecho mucho más de lo que estás pensando ahora mismo, luego
             explico) ¿No es bonito? :D.
         </p>
-        <span>7 / 23</span>
+        <span class="number-marker">7 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -88,7 +88,7 @@ separados. Allá vamos.
             tarea de descarga. El creador del torrent tiene que tener el programa encendido con el 
             fichero cargado.
         </p>
-        <span>8 / 23</span>
+        <span class="number-marker">8 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -96,7 +96,7 @@ separados. Allá vamos.
             medio que le plazca, lo más habitual es subirlo a alguna web, por ejemplo: la página "the
             pirate bay" (hay un documental muy chulo sobre ella llamado TPB: AFK en youtube mismo).
         </p>
-        <span>9 / 23</span>
+        <span class="number-marker">9 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -105,7 +105,7 @@ separados. Allá vamos.
             trocear el fichero en muchas "piezas" del mismo tamaño, cada una con un índice de su 
             posición.
         </p>
-        <span>10 / 23</span>
+        <span class="number-marker">10 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -113,7 +113,7 @@ separados. Allá vamos.
             la tienes lista para compartirla con otro par. El caos está en que para que no se cree un
             tapón, los clientes suelen descargar las piezas en orden aleatorio.
         </p>
-        <span>11 / 23</span>
+        <span class="number-marker">11 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -122,7 +122,7 @@ separados. Allá vamos.
             "seeders" y los que descargan "leechers", todos los pares ejercen ambos roles dentro de 
             sus posibilidades.
         </p>
-        <span>12 / 23</span>
+        <span class="number-marker">12 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -132,7 +132,7 @@ separados. Allá vamos.
         </p>
         <img src="{{site.url}}/assets/twitter/torrent/torrent-thread3.png" alt="Descargando con qbittorrent" title="Pantalla principal Qbittorrent">
         <img src="{{site.url}}/assets/twitter/torrent/torrent-thread4.png" alt="Lista de trackers mostrada en qbittorrent" title="Lista de trackers">
-        <span>13 / 23</span>
+        <span class="number-marker">13 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -141,7 +141,7 @@ separados. Allá vamos.
             piezas, "seeders" -> semillas, "leechers" -> pares. El ratio es el cálculo de: 
             transferido/descargado.
         </p>
-        <span>14 / 23</span>
+        <span class="number-marker">14 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -150,7 +150,7 @@ separados. Allá vamos.
             término despectivo que usa la comunidad pirata para esa gente que solo descarga y no 
             comparte.
         </p>
-        <span>15 / 23</span>
+        <span class="number-marker">15 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -159,7 +159,7 @@ separados. Allá vamos.
             económicas. ¿Cómo saben que has bajado X película? Tiene que ver con la dirección IP. 
             Vamos a ello. 👇
         </p>
-        <span>16 / 23</span>
+        <span class="number-marker">16 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -167,7 +167,7 @@ separados. Allá vamos.
             carreteras. Pero unas carreteras llenas de cámaras que van guardando todas las matrículas
             que han pasado por cada tramo xD. Esa "matricula" te la asigna tu compañía telefónica.
         </p>
-        <span>17 / 23</span>
+        <span class="number-marker">17 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -177,7 +177,7 @@ separados. Allá vamos.
             xD:
         </p>
         <img src="{{site.url}}/assets/twitter/torrent/torrent-thread5.png" alt="Listado de pares mostrado por qbittorrent" title="Listado de pares en torrent">
-        <span>18 / 23</span>
+        <span class="number-marker">18 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -185,18 +185,18 @@ separados. Allá vamos.
             algunas que lo hacen incluso voluntariamente sin orden judicial cosa que es de verguenza,
             pero ese es otro tema. 🙄
         </p>
-        <span>19 / 23</span>
+        <span class="number-marker">19 / 23</span>
     </div>
     <div class="tweet">
         Aquí tenéis una página muy guay que os saca que torrents habéis descargado usando ese 
         método de registrar las IP rastreando ciertos torrents:
         <a href="https://iknowwhatyoudownload.com/en/peer/">https://iknowwhatyoudownload.com/en/peer/</a>
-        <span>20 / 23</span>
+        <span class="number-marker">20 / 23</span>
     </div>
     <div class="tweet">
         <p>Y aquí un enlace de la documentación oficial que está interesante:</p>
         <a href="https://www.bittorrent.org/beps/bep_0003.html">https://www.bittorrent.org/beps/bep_0003.html</a>
-        <span>21 / 23</span>
+        <span class="number-marker">21 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -205,7 +205,7 @@ separados. Allá vamos.
             un vecino puede haberse conectado a tu wifi. Lo último es rezar para que el juez tenga 
             sentido común jajaja
         </p>
-        <span>22 / 23</span>
+        <span class="number-marker">22 / 23</span>
     </div>
     <div class="tweet">
         <p>
@@ -213,7 +213,7 @@ separados. Allá vamos.
             (tampoco mucho), aquí un post de un compi de mastodon que está muy bien:
         </p>
         <a href="https://www.privacytools.io/">https://www.privacytools.io/</a>
-        <span>23 / 23</span>
+        <span class="number-marker">23 / 23</span>
     </div>
 </div>
 

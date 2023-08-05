@@ -13,10 +13,13 @@
     margin: 5px auto;
     display: block;
 }
-.tweet span {
+.tweet .number-marker {
     display: block;
     margin: 0 10px;
     text-align: right;
     font-weight: bold;
     font-size: 0.8em;
+}
+.tweet .twitter-hashtag, .tweet a {
+    color: #1d9bf0;
 }

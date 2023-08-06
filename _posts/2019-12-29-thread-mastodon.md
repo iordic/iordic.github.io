@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Twitter backup] Mastodon"
-description: ""
+description: "Hilo sobre el funcionamiento de Mastodon"
 date: 2019-12-29 23:34
 categories: twitter-thread torrent
 twitter-thread: true

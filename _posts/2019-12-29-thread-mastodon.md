@@ -2,7 +2,7 @@
 layout: post
 title:  "[Twitter backup] Mastodon"
 description: ""
-date: 2020-01-10 13:35
+date: 2019-12-29 23:34
 categories: twitter-thread torrent
 twitter-thread: true
 ---

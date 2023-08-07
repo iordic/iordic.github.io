@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Ingeniería inversa sobre software de FNIRSI"
 description: "Un caso práctico de reversing sobre software en .NET"
 date:   2022-01-26 20:00

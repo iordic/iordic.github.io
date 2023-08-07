@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Introducción al lenguaje de Smali"
 description: "Post sobre sintaxis del lenguaje Smali"
 date:   2018-10-08 00:30

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cifrado: ¿simétrico o asimétrico?"
 description: "Post sobre comparativas de cifrado simétrico vs asimétrico"
 date:   2019-07-18 18:20

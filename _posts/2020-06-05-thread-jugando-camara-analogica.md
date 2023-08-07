@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Twitter backup] Usando una cámara analógica con Orange Pi"
 description: "Jugando con la cámara analógica de un timbre"
 date: 2020-06-05 22:58  

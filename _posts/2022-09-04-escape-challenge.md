@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Un reto sobre cómo la memoria en C puede traicionarte"
 description: "Pequeño reto en C usado en escape room"
 date:   2022-09-04 23:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Usando el GPIO de un router con OpenWrt (+ i2c)"
 description: "Post sobre sintaxis del lenguaje Smali"
 date:   2020-09-04 23:30

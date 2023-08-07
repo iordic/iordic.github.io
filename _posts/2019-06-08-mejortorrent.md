@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mejortorrent: ¿por qué está casi todo mal?"
 description: "Post sobre sintaxis del lenguaje Smali"
 date:   2019-06-08 00:20

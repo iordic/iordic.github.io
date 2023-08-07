@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Twitter backup] Protocolo torrent"
 description: "Hilo de Twitter sobre el funcionamiento del protocolo bittorrent"
 date: 2020-01-10 13:35

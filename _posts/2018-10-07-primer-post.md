@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Bienvenidos a mi blog"
 description: "Post de bienvenida al blog"
 date:   2018-10-07 16:50

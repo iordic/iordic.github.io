@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Twitter backup] Mastodon"
 description: "Hilo sobre el funcionamiento de Mastodon"
 date: 2019-12-29 23:34

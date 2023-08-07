@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Primeras impresiones del Flipper Zero"
 description: "Opinión personal sobre el flipper zero"
 date:   2022-09-18 12:30

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Opinión personal sobre la app coronamadrid"
 description: "Una simple opinión y algún aspecto técnico con todo el revuelo de la aplicación"
 date:   2020-03-29 22:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Twitter backup] Método de censura basado en IP de Vodafone"
 description: "Método que usa vodafone para bloquear webs de piratería y otros"
 date: 2021-05-13 22:58

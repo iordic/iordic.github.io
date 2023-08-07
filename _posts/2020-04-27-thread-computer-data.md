@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Twitter backup] Tratamiendo de información por un ordenador"
 description: "Hilo de Twitter para explicar el tratamiento de la información que realiza un ordenador"
 date: 2020-04-27 17:30  

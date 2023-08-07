@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "¿Por qué los programas de Windows no funcionan en Linux y viceversa?"
 description: "Humilde explicación de llamadas a sistema y wine"
 date:   2019-11-03 18:00

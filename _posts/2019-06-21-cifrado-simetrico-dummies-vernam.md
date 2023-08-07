@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cifrado simétrico para dummies: Vernam"
 description: "Crea tu primer cifrador simétrico con Python 3"
 date:   2019-07-21 18:20

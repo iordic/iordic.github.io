@@ -5,5 +5,69 @@
 <!-- end custom head snippets -->
 <!-- Hay un secreto por aquí: aHR0cHM6Ly9pb3JkaWMuZ2l0aHViLmlvL3NlY3JldC9zYWx0YXBhY29zLwo= -->
 {%- if page.twitter-thread %}
-    <link rel="stylesheet" href="{{ "/assets/css/twitter-thread.css" | relative_url }}">
+    <!--<link rel="stylesheet" href="{{ '/assets/css/twitter-thread.css' | relative_url }}">-->
 {% endif %}
+
+<div class="theme-switches">
+    <div data-theme="light" class="switch" id="switch-1"></div>
+    <div data-theme="dark" class="switch" id="switch-2"></div>
+</div>
+
+<script type="module">
+let switches = document.getElementsByClassName('switch');
+
+let style = localStorage.getItem('style');
+
+if (style == null) {
+  setTheme('light');
+} else {
+  setTheme(style);
+}
+
+for (let i of switches) {
+  i.addEventListener('click', function () {
+    let theme = this.dataset.theme;
+    setTheme(theme);
+  });
+}
+
+function setTheme(theme) {
+  if (theme == 'light') {
+    document.getElementById('switcher-id').href = "{{ '/assets/css/main.css' | relative_url }}";
+  } else if (theme == 'dark') {
+    document.getElementById('switcher-id').href = "{{ '/assets/css/dark.css' | relative_url }}";
+  }
+  localStorage.setItem('style', theme);
+}
+</script>
+
+<style>
+
+.theme-switches {
+  display: flex;
+  justify-content: center;
+}
+
+.switch {
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.switch:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+  background-color: var(--light);
+}
+
+#switch-2 {
+  background-color: var(--sky);
+}
+
+</style>

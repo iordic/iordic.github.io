@@ -17,7 +17,7 @@ momento si que mencione algoritmos concretos, ya veremos. ¡Empecemos! :)
 # ¿Qué significa cifrar?
 El concepto es tan simple como el siguiente esquema:
 
-![Esquema cifrado]({{site.url}}/assets/cifrado/esq_cifrado.png)
+![Esquema cifrado]({{site.url}}/assets/images/cifrado/esq_cifrado.png)
 
 Básicamente consiste en convertir datos que pueden ser leídos por cualquier persona en
 otro fichero o paquete de datos que no queremos que pueda ser leído por alguien 
@@ -29,7 +29,7 @@ para tratar el fichero de datos (también conjunto de bytes a efectos prácticos
 Se usa el término simétrico para todos los algoritmos que usan la misma clave para
 realizar el cifrado y el descifrado de los datos. El esquema sería:
 
-![Esquema cifrado simétrico]({{site.url}}/assets/cifrado/esq_simetrico.png)
+![Esquema cifrado simétrico]({{site.url}}/assets/images/cifrado/esq_simetrico.png)
 
 Viendo el esquema podrás entender porque se le da este nombre, ya que la forma de
 descifrar es como "darle la vuelta" a la de cifrar y tenemos exactamente lo mismo.
@@ -49,7 +49,7 @@ En el cifrado asimétrico en cambio se usan dos claves, una nos sirve para cifra
 otra para descifrar. El algoritmo funciona de forma que no se puede usar la clave de una
 de las dos funciones para realizar la opuesta. El esquema es el siguiente:
 
-![Esquema cifrado asimétrico]({{site.url}}/assets/cifrado/esq_asimetrico.png)
+![Esquema cifrado asimétrico]({{site.url}}/assets/images/cifrado/esq_asimetrico.png)
 
 El par de claves tiene unos nombres curiosos y voy a explicar el motivo:
 
@@ -65,7 +65,7 @@ jodid@. Podrá descifrar cualquier cosa y hacerse pasar por ti (ahora hablamos d
 
 Si has entendido lo anterior comprenderás que no puedes intentar esto:
 
-![Esquema fallo asimétrico]({{site.url}}/assets/cifrado/esq_asimetrico_fail.png)
+![Esquema fallo asimétrico]({{site.url}}/assets/images/cifrado/esq_asimetrico_fail.png)
 
 Puede que hayas pensado aunque suene absurdo si es posible hacerlo al revés, al fin y al
 cabo son claves, es decir un conjunto de bytes que usamos como parámetro y se puede meter
@@ -81,7 +81,7 @@ que esos datos los has enviado tú.
 
 A este procedimiento se le llama "firmar" y su esquema es precisamente este:
 
-![Esquema firma]({{site.url}}/assets/cifrado/esq_firma.png)
+![Esquema firma]({{site.url}}/assets/images/cifrado/esq_firma.png)
 
 En los algoritmos de cifrado asimétrico si que hay que guardar el par de claves, aquí no
 funcionamos ya con contraseña como en simétrico. Vaya faena... 
@@ -89,7 +89,7 @@ funcionamos ya con contraseña como en simétrico. Vaya faena...
 Entonces, ¿cómo nos aseguramos de que no nos roben la clave privada? Pues aquí viene una
 cosa que igual no te esperas. Vamos a hacer un poco de magia:
 
-![Protección clave privada]({{site.url}}/assets/cifrado/proteger_privada.png)
+![Protección clave privada]({{site.url}}/assets/images/cifrado/proteger_privada.png)
 
 Vaya, esto si que no te lo esperabas eh... Pues sí, resulta que donde creías que eran
 rivales resulta que eran complementos perfectos. ;)
@@ -123,7 +123,7 @@ sin comprometer la clave de descifrado.
 En efecto, pensemos en el posible esquema de comunicaciones cifradas mediante algoritmos
 simétricos:
 
-![Comunicación con simétrico]({{site.url}}/assets/cifrado/ataque_simetrico.png)
+![Comunicación con simétrico]({{site.url}}/assets/images/cifrado/ataque_simetrico.png)
 
 Para poder establecer comunicación el equipo A con el equipo B necesitan compartirse la
 clave de cifrado. Al pasarla por un canal inseguro (no cifrado) cualquiera que tenga
@@ -145,7 +145,7 @@ mejor).
 Aquí el esquema de como sería implementar una comunicación con cifrado asimétrico a
 grandes rasgos:
 
-![Comunicación con asimétrico]({{site.url}}/assets/cifrado/com_asimetrico.png)
+![Comunicación con asimétrico]({{site.url}}/assets/images/cifrado/com_asimetrico.png)
 
 Bien, con lo que hemos aprendido antes podemos ver el esquema para entender que aunque
 aquí el canal sea inseguro y haya alguien intentando espiarnos podemos compartir la clave
@@ -161,7 +161,7 @@ recibido pertenece realmente al equipo B. Por lo tanto alguien dentro del mismo 
 podría intentar engañarnos haciendose pasar por él y pasarnos una clave pública suya para
 poder descifrar los mensajes con su clave privada. Aquí el esquema:
 
-![Ataque MITM]({{site.url}}/assets/cifrado/ataque_mitm.png)
+![Ataque MITM]({{site.url}}/assets/images/cifrado/ataque_mitm.png)
 
 Este tipo de ataque se llama "Man In The Middle" 
 ([MITM](https://es.wikipedia.org/wiki/Ataque_de_intermediario)) y tiene otras 
@@ -177,7 +177,7 @@ solución en esta vida.
 ¿Recuerdas eso que queda por ahí arriba llamado firma? ¡Ves! al final todo tiene su 
 motivo :D. Pues te dejo este diagramilla por aquí y te explico debajo la interpretación:
 
-![defensa mitm]({{site.url}}/assets/cifrado/entidad_confianza.png)
+![defensa mitm]({{site.url}}/assets/images/cifrado/entidad_confianza.png)
 
 Vaya, menudo jaleo, bueno a ver si lo explico bien... Realmente es difícil evitar que nos
 hagan la suplantación, por lo tanto vamos a apostar por otra estrategia: asegurarnos de
@@ -207,17 +207,17 @@ contiene precisamente una clave pública para que puedas mandarle el mensaje cif
 Si eres un poco curioso puedes acceder a una web, pulsar sobre el candadito y ver el
 certificado:
 
-![certificado debian]({{site.url}}/assets/cifrado/cert_deb.png)
+![certificado debian]({{site.url}}/assets/images/cifrado/cert_deb.png)
 
 En este ejemplo puedes observar en la parte de arriba para quien se ha emitido y quién es
 el que ha "firmado" el certificado: *Let's Encrypt*. Y si eres más curioso aún puedes
 incluso ver su clave pública:
 
-![clave pública debian]({{site.url}}/assets/cifrado/debian_clave.png)
+![clave pública debian]({{site.url}}/assets/images/cifrado/debian_clave.png)
 
 Aquí un ejemplo de una clave pública que la habría firmado alguien en quien no confiamos:
 
-![Entidad emisora desconocida]({{site.url}}/assets/cifrado/cert_desconocido.png)
+![Entidad emisora desconocida]({{site.url}}/assets/images/cifrado/cert_desconocido.png)
 
 Os dejo el enlace de la página de ejemplo abajo para que juguéis con ella :p.
 

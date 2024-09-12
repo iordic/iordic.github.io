@@ -27,7 +27,7 @@ En el primer hilo simplemente probé a conectar a la camára destripada a una TV
             ser técnico porque tampoco hay mucho que rascar, tenía dos placas y una de 
             ellas era la que tenía la cámara:
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread1.jpeg" alt="Primer plano de la cámara sin conectar" title="PCB camára analógica">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread1.jpeg" alt="Primer plano de la cámara sin conectar" title="PCB camára analógica">
         <span class="number-marker">1 / 10</span>
     </div>
     <div class="tweet">
@@ -36,8 +36,8 @@ En el primer hilo simplemente probé a conectar a la camára destripada a una TV
             uno que no. Si lo miramos desde atrás se pueden ver claramente para qué son 
             (viene indicado), voy a dibujar por encima con el paint lo que hay que saber:
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread2.jpeg" alt="Identificación de los pines a usar por la parte delantera" title="Pines de la PCB por delante">
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread3.jpeg" alt="Identificación de los pines a usar por la parte trasera" title="Pines de la PCB por detrás">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread2.jpeg" alt="Identificación de los pines a usar por la parte delantera" title="Pines de la PCB por delante">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread3.jpeg" alt="Identificación de los pines a usar por la parte trasera" title="Pines de la PCB por detrás">
         <span class="number-marker">2 / 10</span>
     </div>
     <div class="tweet">
@@ -63,7 +63,7 @@ En el primer hilo simplemente probé a conectar a la camára destripada a una TV
             Buscamos los pines de scart en google y tiene dos para entrada de video :D, 
             así que teóricamente se podría con este esquema:
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread4.png" alt="Esquema de conexión de la pcb a SCART" title="Esquema conexión">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread4.png" alt="Esquema de conexión de la pcb a SCART" title="Esquema conexión">
         <span class="number-marker">5 / 10</span>
     </div>
     <div class="tweet">
@@ -71,8 +71,8 @@ En el primer hilo simplemente probé a conectar a la camára destripada a una TV
             Pillo un cable cutre y hago una ñapa que avergüence a todos los profesores 
             que algún día decidieron enseñarme electrónica :D
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread5.jpeg" alt="Cable que usé para conectar la camára" title="Cable a usar">
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread6.jpeg" alt="Cable soldado a la placa de la camára" title="Cable soldado a la placa">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread5.jpeg" alt="Cable que usé para conectar la camára" title="Cable a usar">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread6.jpeg" alt="Cable soldado a la placa de la camára" title="Cable soldado a la placa">
         <span class="number-marker">6 / 10</span>
     </div>
     <div class="tweet">
@@ -82,19 +82,19 @@ En el primer hilo simplemente probé a conectar a la camára destripada a una TV
             ¿Recuerdas los leds IR? Nosotros no podemos verlos pero el teléfono con su 
             cámara si 😏
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread7.jpeg" alt="Vista de los leds IR funcionando desde el teléfono" title="Camára encendida">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread7.jpeg" alt="Vista de los leds IR funcionando desde el teléfono" title="Camára encendida">
         <span class="number-marker">7 / 10</span>
     </div>
     <div class="tweet">
         <p>¡Y voila! Hasta a oscuras :D</p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread8.jpeg" alt="Camára funcionando y mostrando la imagen en la televisión" title="Camára funcionando">
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread9.jpeg" alt="Camára siendo sujetada por un soporte de soldadura" title="Pseudosoporte de camára">
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread10.jpeg" alt="Camára funcionando y mostrando la imagen a oscuras" title="Camára funcionando a oscuras">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread8.jpeg" alt="Camára funcionando y mostrando la imagen en la televisión" title="Camára funcionando">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread9.jpeg" alt="Camára siendo sujetada por un soporte de soldadura" title="Pseudosoporte de camára">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread10.jpeg" alt="Camára funcionando y mostrando la imagen a oscuras" title="Camára funcionando a oscuras">
         <span class="number-marker">8 / 10</span>
     </div>
     <div class="tweet">
         <p>Y esta es la parte que no queréis ver jajaja</p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread1/camera-thread11.jpeg" alt="Mostrando la conexión de la camára al conector scart de la televisión" title="Conexión de camára a SCART">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread1/camera-thread11.jpeg" alt="Mostrando la conexión de la camára al conector scart de la televisión" title="Conexión de camára a SCART">
         <span class="number-marker">9 / 10</span>
     </div>
     <div class="tweet">
@@ -121,13 +121,13 @@ Orange Pi Zero (la 1).
             conectada a la rpi, pues funciona, pero esto es lo que hay que liar para 
             hacerlo jajaj
         </p>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread2/camera2-thread1.jpeg" alt="Foto mostrando el montaje de la camára con la capturadora" title="Montaje del prototipo">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread2/camera2-thread1.jpeg" alt="Foto mostrando el montaje de la camára con la capturadora" title="Montaje del prototipo">
         <span class="number-marker">1 / 4</span>
     </div>
     <div class="tweet">
         <p>y funciona:</p>
         <span class="number-marker">2 / 4</span>
-        <img src="{{site.url}}/assets/twitter/analog_camera/thread2/camera2-thread2.png" alt="Captura mostrando el resultado de ejecutar un comando para sacar fotografía con la camára" title="Resultado">
+        <img src="{{site.url}}/assets/images/twitter/analog_camera/thread2/camera2-thread2.png" alt="Captura mostrando el resultado de ejecutar un comando para sacar fotografía con la camára" title="Resultado">
     </div>
     <div class="tweet">
         <p>En verdad todo era una excusa para beberme una cerveza, a vuestra salud :)</p>
@@ -155,14 +155,14 @@ un ojo. Es un fork de otro que encontré, adaptado a la Opi y metiendo la parte 
 <div class="thread">
     <div class="tweet">
         <p>keep it cutre</p>
-         <img src="{{site.url}}/assets/twitter/analog_camera/thread3/camera3-thread1.jpeg" alt="" title="">
-         <img src="{{site.url}}/assets/twitter/analog_camera/thread3/camera3-thread2.png" alt="" title="">
+         <img src="{{site.url}}/assets/images/twitter/analog_camera/thread3/camera3-thread1.jpeg" alt="" title="">
+         <img src="{{site.url}}/assets/images/twitter/analog_camera/thread3/camera3-thread2.png" alt="" title="">
         <span class="number-marker">1 / 3</span>
     </div>
     <div class="tweet">
         <p></p>
         <video width="640" height="360" controls>
-          <source src="{{site.url}}/assets/twitter/analog_camera/thread3/camera3-thread3.mp4" type="video/mp4">
+          <source src="{{site.url}}/assets/videos/twitter/analog_camera/thread3/camera3-thread3.mp4" type="video/mp4">
             Parece que tu navegador no soporta la etiqueta de video :(
         </video>        
         <span class="number-marker">2 / 3</span>

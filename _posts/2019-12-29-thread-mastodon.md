@@ -25,7 +25,7 @@ twitter-thread: true
             red social actual de las comerciales que conocemos. Un esquema simple sería 
             este, un servidor contiene almacenada toda la información y todas las 
             acciones pasan por él (es algo más complejo pero da igual):
-            <img src="{{site.url}}/assets/twitter/mastodon/mastodon-thread1.jpeg" alt="Red social centralizada" title="Twitter centralizado">
+            <img src="{{site.url}}/assets/images/twitter/mastodon/mastodon-thread1.jpeg" alt="Red social centralizada" title="Twitter centralizado">
         </p>
         <span class="number-marker">2 / 12</span>
     </div>
@@ -35,7 +35,7 @@ twitter-thread: true
             del todo cierto, es una red "federada". Existen ciertas diferencias entre esta y una 
             red p2p pura. El esquema de una red p2p simplificado sería este:
         </p>
-        <img src="{{site.url}}/assets/twitter/mastodon/mastodon-thread2.jpeg" alt="Esquema de red social p2p" title="Red social p2p">
+        <img src="{{site.url}}/assets/images/twitter/mastodon/mastodon-thread2.jpeg" alt="Esquema de red social p2p" title="Red social p2p">
         <span class="number-marker">3 / 12</span>
     </div>
     <div class="tweet">
@@ -63,7 +63,7 @@ twitter-thread: true
             también con todo el equipo 😂.
         </p>
         <p>El esquema sería más o menos así:</p>
-        <img src="{{site.url}}/assets/twitter/mastodon/mastodon-thread3.jpeg" alt="Esquema de red social federada" title="Red social federada">
+        <img src="{{site.url}}/assets/images/twitter/mastodon/mastodon-thread3.jpeg" alt="Esquema de red social federada" title="Red social federada">
         <span class="number-marker">6 / 12</span>
     </div>
     <div class="tweet">

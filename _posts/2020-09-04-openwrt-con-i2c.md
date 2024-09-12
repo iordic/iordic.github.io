@@ -112,9 +112,9 @@ a simular, siempre se puede cambiar por software :).
 Con todo esto: punta de soldador fina, cuidado con la temperatura, no te pases con el
 estaño y mucha suerte. Foto de mi resultado:
 
-![soldaduras en placa]({{site.url}}/assets/openwrt_i2c/soldaduras.jpg "Soldaduras en la placa")
+![soldaduras en placa]({{site.url}}/assets/images/openwrt_i2c/soldaduras.jpg "Soldaduras en la placa")
 
-![Puerto externo]({{site.url}}/assets/openwrt_i2c/puerto.jpg "Puerto improvisado")
+![Puerto externo]({{site.url}}/assets/images/openwrt_i2c/puerto.jpg "Puerto improvisado")
 
 ## 2. Probando que funcionan los pines
 Si has sido list@ habrás venido aquí antes de soldar :). Aquí está la
@@ -158,7 +158,7 @@ echo "0" > /sys/class/gpio/gpio505/value
 Podemos medir con el voltímetro que cambia entre 0v y 3.3v. Aquí la demostración:
 
 <video width="640" height="360" controls>
-    <source src="{{site.url}}/assets//openwrt_i2c/demo_gpio.mp4" type="video/mp4">
+    <source src="{{site.url}}/assets//videos/openwrt_i2c/demo_gpio.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -199,9 +199,9 @@ disposición de pines correcta y y ejecutar `i2cdetect -y 0` (0 es el número de
 buscar la dirección del módulo, si te sale es que funciona correctamente.
 Yo usé un módulo con LM75 que tenía por casa, es un sensor de temperatura:
 
-![LM75]({{site.url}}/assets/openwrt_i2c/modulo_conectado.jpg "Módulo LM75")
+![LM75]({{site.url}}/assets/images/openwrt_i2c/modulo_conectado.jpg "Módulo LM75")
 
-![i2cdetect]({{site.url}}/assets/openwrt_i2c/i2cdetect.png "Ejecución de i2cdetect")
+![i2cdetect]({{site.url}}/assets/images/openwrt_i2c/i2cdetect.png "Ejecución de i2cdetect")
 
 ## Extra: aprovecho el post para explicar como compilar de forma cruzada en C
 Si necesitas ejecutar un programa específico en el router, debes saber que al tratarse de
@@ -308,11 +308,11 @@ int main(int args, char *argv[]) {
 
 Aquí una captura del proceso de compilado y envío del binario al router:
 
-![Cross compile]({{site.url}}/assets/openwrt_i2c/cross_compile.png "Compilación cruzada")
+![Cross compile]({{site.url}}/assets/images/openwrt_i2c/cross_compile.png "Compilación cruzada")
 
 Y aquí ejecutando en el router de forma remota:
 
-![Ejecución C]({{site.url}}/assets/openwrt_i2c/ejecucion.png "Ejecución C remota")
+![Ejecución C]({{site.url}}/assets/images/openwrt_i2c/ejecucion.png "Ejecución C remota")
 
 Como puedes ver, una vez ya puedes comunicarte con otros dispositivos mediante diferentes
 protocolos (aunque sea simulado por *bit banging*) se abren muchas posibilidades. Se puede

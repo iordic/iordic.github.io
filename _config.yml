@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Jordi Castelló"
-  avatar           : /assets/avatar.jpg   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/avatar.jpg   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The Spooky Script Kitty"
   location         : "0.0.0.0"
   email            :

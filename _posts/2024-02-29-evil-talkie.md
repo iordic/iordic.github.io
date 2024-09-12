@@ -28,7 +28,7 @@ está pensado para mandar señales digitales. Se modulan los 0 y 1 con la portad
 el tipo de modulación que usemos (FM, AM, PM, etc... no se si hay más tipos ahora mismo).
 En esta imagen joseada se puede ver un ejemplo:
 
-![image]({{site.url}}/assets/evil_talkie/signal-modulation-methods-binary-digits-amplitudes-series.jpg)
+![image]({{site.url}}/assets/images/evil_talkie/signal-modulation-methods-binary-digits-amplitudes-series.jpg)
 
 En cambio, los walkies tipo PMR446 de toda la vida no usan sistema digital en ningún 
 momento (espero que no vengan los coleguis radiofrikis a funarme porque hoy en día es mentira):
@@ -104,7 +104,7 @@ petardo, he conseguido ciertos resultados pero no estoy contento del todo. Os en
 resultado:
 
 <video width="640" height="360" controls>
-    <source src="{{site.url}}/assets/evil_talkie/alpha-bravo-charlie.mp4" type="video/mp4">
+    <source src="{{site.url}}/assets/videos/evil_talkie/alpha-bravo-charlie.mp4" type="video/mp4">
     Parece que tu navegador no soporta la etiqueta de video :(
 </video>
 

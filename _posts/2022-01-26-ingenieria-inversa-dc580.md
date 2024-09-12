@@ -21,7 +21,7 @@ fácil que antes de recibir el cacharro ya sabía cómo funcionaba e incluso imp
 código en Java para engañar al software haciéndole pensar que estaba interactuando con un
 dispositivo real.
 
-![dispositivo dc580]({{site.url}}/assets/dc580/dc580.jpg)
+![dispositivo dc580]({{site.url}}/assets/images/dc580/dc580.jpg)
 
 En la imagen vemos el cacharrín en si, la pcb que se ve a la izquierda contiene el chip
 para comunicarse al PC por USB.
@@ -37,12 +37,12 @@ alimentación, no voy a estar modificando el valor mientras la use jajaja
 
 Aquí se puede ver una captura del software:
 
-![software proporcionado por FNIRSI]({{site.url}}/assets/dc580/fnirsi_software.png)
+![software proporcionado por FNIRSI]({{site.url}}/assets/images/dc580/fnirsi_software.png)
 
 Me descargué el zip proporcionado por el fabricante y antes de instalarlo siquiera, al
 entrar a mirar el contenido del zip ya se pueden sacar un par de conclusiones útiles:
 
-![Ficheros dentro del zip de instalación]({{site.url}}/assets/dc580/ficheros_instalador.png)
+![Ficheros dentro del zip de instalación]({{site.url}}/assets/images/dc580/ficheros_instalador.png)
 
 Uno de los ficheros es el instalador de una versión concreta del framework .NET, eso
 significa que el programa está desarrollado en .NET y que decompilarlos va a ser tarea 
@@ -60,7 +60,7 @@ FOSS... shame on me. Pero es que es una maravilla).
 Pues bueno, le doy a decompilar y veo que es bastante legible (C# se parece bastante a 
 Java tbh):
 
-![Ficheros dentro del zip de instalación]({{site.url}}/assets/dc580/dotpeek1.png)
+![Ficheros dentro del zip de instalación]({{site.url}}/assets/images/dc580/dotpeek1.png)
 
 Básicamente todo el código que nos interesa está en el mismo sitio, es un único 
 formulario con todo el código a piñón y a correr (si hija si...).
@@ -187,7 +187,7 @@ tener el dispositivo. Pero claro, no iba a programar esa locura en un dispositiv
 Así que opté por descargarme algún software de virtualización y encontre uno sencillito
 que me sirvió: *com0com*. Con él creas puertos serie virtuales y los conectas entre ellos:
 
-![Ficheros dentro del zip de instalación]({{site.url}}/assets/dc580/com0com.jpg)
+![Ficheros dentro del zip de instalación]({{site.url}}/assets/images/dc580/com0com.jpg)
 
 Implementé en Java un programilla que se conectara en un extremo (puerto creado *COM4*) y
 cada X tiempo mandara los supuestos valores de la fuente. En el otro extremo (*COM3*)
@@ -195,7 +195,7 @@ tenía el software original. El "simulador" básicamente guarda los valores que 
 programa de *FNIRSI* y los guarda en una clase con todos los valores actuales, luego los
 replica periódicamente (no simula más que eso). Aquí enseño una captura:
 
-![Captura de Eclipse lanzando el simulador]({{site.url}}/assets/dc580/dc580_simulador.png)
+![Captura de Eclipse lanzando el simulador]({{site.url}}/assets/images/dc580/dc580_simulador.png)
 
 ¡Funciona! El código del "simulador" no lo he subido a GitHub porque está un poco guarro
 (más aún que el de la interfaz sí!), porque era más una prueba y porque está pensado para

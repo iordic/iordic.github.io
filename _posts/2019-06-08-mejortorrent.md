@@ -19,7 +19,7 @@ contenido estamos explorando, buscando o descargando.
 
 Pues por lógico que parezca mejortorrent no parece que le de mucha importancia a esto:
 
-![no ssl]({{site.url}}/assets/mejortorrent/noenc.png)
+![no ssl]({{site.url}}/assets/images/mejortorrent/noenc.png)
 
 ## 2. Contenido estático
 
@@ -28,7 +28,7 @@ Es decir, se usa básicamente para los anuncios y sobretodo para abrirte pop-ups
 independientemente de donde pinches con el ratón: barra de búsqueda, botón, enlaces...
 
 <video width="640" height="360" controls>
-    <source src="{{site.url}}/assets/mejortorrent/busqueda.mp4" type="video/mp4">
+    <source src="{{site.url}}/assets/videos/mejortorrent/busqueda.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -42,18 +42,18 @@ Si realizamos una búsqueda podemos comprobar que efectivamente, los parámetros
 mediante el método GET (se ven directamente en la barra de direcciones) y son bastante
 autodescriptivas, sí, eso que te decía tu profesor que tenías que hacer y sudabas de él:
 
-![dirección búsqueda]({{site.url}}/assets/mejortorrent/direccion.png) 
+![dirección búsqueda]({{site.url}}/assets/images/mejortorrent/direccion.png) 
 
 :p
 
-![dirección descarga]({{site.url}}/assets/mejortorrent/direccion2.png)
+![dirección descarga]({{site.url}}/assets/images/mejortorrent/direccion2.png)
 
 Es tan estático que cuando estaba aprendiendo a programar en Python 2.7 hice un script
 de poco mas de 100 líneas de código (que usando ciertas librerías podrían reducirse 
 considerablemente), aunque bueno es python, es normal. El código era un desastre, además lo hice hace años y creo que ya no funciona del todo, pero aquí viene
 una captura de parte de su ejecución:
 
-![Ejecución de script]({{site.url}}/assets/mejortorrent/script.png)
+![Ejecución de script]({{site.url}}/assets/images/mejortorrent/script.png)
 
 > ¡Qué desastre! Lo sé. Mal identado, la codificación UTF-8 fallando... Pero: ¡Ey,
 > Era mi primerito día!
@@ -67,13 +67,13 @@ Creo que el motivo por el cual no lo cierran es simplemente que el servidor est�
 de España, por lo tanto se limitan a realizar bloqueos de dominio a través de los 
 distintos ISPs. Podemos comprobarlo de forma simple ejecutando `nslookup mejortorrent.com` y si estamos usando el DNS del ISP nos aparecerá esto:
 
-![bloqueo de dominio]({{site.url}}/assets/mejortorrent/bloqueo.png)
+![bloqueo de dominio]({{site.url}}/assets/images/mejortorrent/bloqueo.png)
 
 El proveedor tiene en su servidor DNS que cuando solicitemos esa dirección nos devuelva *127.0.0.1* o lo que es lo mismo *localhost*. Es decir, nos dice que nos rediriga a nuestra propia máquina para que falle (a no ser que tengamos un servidor web ejecutando en nuestro equipo xd).
 
 Podemos burlar esto simplemente cambiando el servidor de DNS a otro, si usamos por ejemplo el de google obtenemos:
 
-![bloqueo burlado]({{site.url}}/assets/mejortorrent/desbloqueo.png)
+![bloqueo burlado]({{site.url}}/assets/images/mejortorrent/desbloqueo.png)
 
  Por lo tanto los administradores solo tienen que registrar un dominio
 nuevo y redireccionarla a la IP del servidor. Y por supuesto, confiar en que los 
@@ -84,9 +84,9 @@ respuesta creo que se debe a que la página esta alojada fuera de España, mas
 concretamente en Ucrania según la propia información que nos facilita la página y
 también si realizamos una consulta GeoIP:
 
-![Ucrania 1]({{site.url}}/assets/mejortorrent/ukr1.png)
+![Ucrania 1]({{site.url}}/assets/images/mejortorrent/ukr1.png)
 
-![Ucrania 3]({{site.url}}/assets/mejortorrent/ukr3.png)
+![Ucrania 3]({{site.url}}/assets/images/mejortorrent/ukr3.png)
 
 ## 4. Minado de criptomonedas
 
@@ -105,17 +105,17 @@ he podido comprobar que es lo que hace este virus pero es obvio que lo es
 ([aquí](https://www.mediavida.com/foro/hard-soft/troyano-minador-617386) dicen que es
 un troyano para minar criptomonedas).
 
-![zip sospechoso]({{site.url}}/assets/mejortorrent/virus1.png)
+![zip sospechoso]({{site.url}}/assets/images/mejortorrent/virus1.png)
 
 Descomprimido:
 
-![descomprimido]({{site.url}}/assets/mejortorrent/virus2.png)
+![descomprimido]({{site.url}}/assets/images/mejortorrent/virus2.png)
 
 Es un fichero de visual basic script que viene compilado, he usado un decompilador 
 online y al parecer el código está ofuscado. O eso o al decompilar se queda así de
 feo, tampoco le daré muchas vueltas.
 
-![decompilado]({{site.url}}/assets/mejortorrent/virus3.png)
+![decompilado]({{site.url}}/assets/images/mejortorrent/virus3.png)
 
 ## 6. ¿Fantasmas?
 La página no cambia desde hace años y la cuenta de 
@@ -125,7 +125,7 @@ sin estrenar. Parece que detrás de la página no exista nadie, no entiendo nada
 Hay una "encuesta" que lleva ahí desde el origen de los tiempos, 4 FAQs que no resuelven
 la mitad de los problemas y un correo ambiguo para las dudas:
 
-![correo]({{site.url}}/assets/mejortorrent/para_mandar.jpg)
+![correo]({{site.url}}/assets/images/mejortorrent/para_mandar.jpg)
 
 > Me pone nervioso, ¿cuál es el correo mejortorrent@gmail.com o MejorTorrent@gmail.com?
 

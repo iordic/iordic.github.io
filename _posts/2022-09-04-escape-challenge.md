@@ -21,7 +21,7 @@ Básicamente la prueba consistía en conseguir ejecutar un programa que pedía u
 y si era correcta activaba un servomotor que liberaba uno de los naipes. Todo montado
 sobre una Orange Pi Zero (bendita orange pi):
 
-![Arquitectura de la prueba]({{site.url}}/assets/wonderescape/arquitectura_prueba.png "Arquitectura de la prueba")
+![Arquitectura de la prueba]({{site.url}}/assets/images/wonderescape/arquitectura_prueba.png "Arquitectura de la prueba")
 
 Es importante la parte del usuario sin privilegios, ya que está todo montado para que
 tengamos que pasar por el aro de usar ese programa incluso teniendo el código fuente a
@@ -44,10 +44,10 @@ no es gran cosa pero me sirvió.
 
 Para activar el módulo que permite mandar señales de PWM hay que añadir un parámetro al
 fichero */boot/armbianEnv.txt* (marcado en rojo):
-![PWM en armbianEnv.txt]({{site.url}}/assets/wonderescape/pwm_config.png "Añadir PWM a Armbian")
+![PWM en armbianEnv.txt]({{site.url}}/assets/images/wonderescape/pwm_config.png "Añadir PWM a Armbian")
 
 También se puede activar desde el comando **armbian-config** yendo a *System > Hardware*:
-![PWM en armbian-config]({{site.url}}/assets/wonderescape/pwm_config2.png "Habilitar PWM en Armbian")
+![PWM en armbian-config]({{site.url}}/assets/images/wonderescape/pwm_config2.png "Habilitar PWM en Armbian")
 
 Después de esto se necesita reiniciar :)
 
@@ -122,7 +122,7 @@ x86. Además, las estructuras de C en ensamblador suelen perderse como lágrimas
 lluvia. Así que proporcionaba el código y al lado el ELF compilado. El algoritmo es algo
 así:
 
-![Flujograma abstracto]({{site.url}}/assets/wonderescape/flujograma_abstracto.png "Flujograma alto nivel")
+![Flujograma abstracto]({{site.url}}/assets/images/wonderescape/flujograma_abstracto.png "Flujograma alto nivel")
 
 El código es:
 
@@ -216,7 +216,7 @@ Todo el código gira entorno a la estructura *State* que guarda la clave, el crc
 el valor de la activación. Aquí un pequeño esquemilla de como está estructurado en bytes
 y posiciones:
 
-![Estructura state]({{site.url}}/assets/wonderescape/struct_state.png "Estructura state")
+![Estructura state]({{site.url}}/assets/images/wonderescape/struct_state.png "Estructura state")
 
 ¿Fácil no? Tenemos:
 * 16 bytes de tamaño máximo para la clave.
@@ -229,12 +229,12 @@ Por tanto se tiene una estructura que ocupa unos **24 bytes**.
 Después de comprobar que se ha introducido un parámetro y no es excesivamente largo se
 rellena a 0s la estructura para eliminar la morralla:
 
-![memset de state]({{site.url}}/assets/wonderescape/memset_struct.png "memset a 0 de state")
+![memset de state]({{site.url}}/assets/images/wonderescape/memset_struct.png "memset a 0 de state")
 
 Los pasos los he descrito arriba en el código. En una ejecución normal en la que se sepa la
 clave se seguiría este esquema:
 
-![Proceso relleno normal]({{site.url}}/assets/wonderescape/rellenado_struct.png "Proceso relleno normal")
+![Proceso relleno normal]({{site.url}}/assets/images/wonderescape/rellenado_struct.png "Proceso relleno normal")
 
 La clave del esquema es la que use para el crc "hardcodeado" que vemos en el código.
 Luego se calcula el crc y como es el correcto se pone a 1 el estado, activando la
@@ -282,11 +282,11 @@ al final para indicar el fin del string).
 
 Aquí una representación de lo dicho:
 
-![Desbordamiento de clave]({{site.url}}/assets/wonderescape/desbordamiento_clave.png "Desbordamiento de clave")
+![Desbordamiento de clave]({{site.url}}/assets/images/wonderescape/desbordamiento_clave.png "Desbordamiento de clave")
 
 Y funciona claro:
 
-![funcionamiento programa]({{site.url}}/assets/wonderescape/ejecucion.png "funcionamiento del programa")
+![funcionamiento programa]({{site.url}}/assets/images/wonderescape/ejecucion.png "funcionamiento del programa")
 
 
 ### 3.1. Bonus
@@ -294,21 +294,21 @@ Si usamos el debugger de radare podemos hasta ver los bytes consecutivos en la p
 ¿Para qué? Pues yo qué se, por usar radare. Aquí vemos la pila después del llenado en la
 ejecución "legítima":
 
-![pila legítima]({{site.url}}/assets/wonderescape/stack_legit.png "Pila en ejecución legítima")
+![pila legítima]({{site.url}}/assets/images/wonderescape/stack_legit.png "Pila en ejecución legítima")
 
 He subrayado con los mismos colores del esquema para que se vean los bytes que
 corresponden a cada atributo. Antes he mencionado que la estructura se perdía al pasar a
 compilador, aquí se demuestra:
 
-![variables ejecución legítima]({{site.url}}/assets/wonderescape/variables_legit.png "Variables en ejecución legítima")
+![variables ejecución legítima]({{site.url}}/assets/images/wonderescape/variables_legit.png "Variables en ejecución legítima")
 
 Si te fijas en las direcciones puedes renombrar las variables y correspondería a esto:
 
-![variables renombradas]({{site.url}}/assets/wonderescape/variables_legit_rename.png "Variables renombradas")
+![variables renombradas]({{site.url}}/assets/images/wonderescape/variables_legit_rename.png "Variables renombradas")
 
 Ahora para la palabra "*esternocleidomastoideo*" del ejemplo:
 
-![memoria en ejecución ilegítima]({{site.url}}/assets/wonderescape/debug_ilegit.png "Estado en ejecución del ataque")
+![memoria en ejecución ilegítima]({{site.url}}/assets/images/wonderescape/debug_ilegit.png "Estado en ejecución del ataque")
 
 ¿Puedes identificar en memoria cada parte? :p
 
@@ -320,7 +320,7 @@ vaya.
 Aquí un video del cacharro casero funcionando con los moñecos:
 
 <video width="720" controls>
-    <source src="{{site.url}}/assets/wonderescape/demo_trampilla.mp4" type="video/mp4">
+    <source src="{{site.url}}/assets/videos/wonderescape/demo_trampilla.mp4" type="video/mp4">
 </video>
 
 ¿Todo esto para un puto servomotor que gira 90º y ya? Ehm... Eso parece (?).

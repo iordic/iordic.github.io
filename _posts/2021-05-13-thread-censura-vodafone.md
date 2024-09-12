@@ -36,10 +36,10 @@ twitter-thread: true
             certificado. Un certificado autofirmado por una  entidad española 😎, que 
             entre sus clientes tiene a Vodafone :)
         </p>
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread1.png" alt="Página inaccesible debido a la censura" title="Sci-hub censurada">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread2.png" alt="Error de certificado al intentar acceder a Sci-hub" title="Error de certificado">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread3.jpeg" alt="Información del certificado autofirmado" title="certificado autofirmado Allot">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread4.jpeg" alt="Página web de allot" title="web allot">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread1.png" alt="Página inaccesible debido a la censura" title="Sci-hub censurada">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread2.png" alt="Error de certificado al intentar acceder a Sci-hub" title="Error de certificado">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread3.jpeg" alt="Información del certificado autofirmado" title="certificado autofirmado Allot">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread4.jpeg" alt="Página web de allot" title="web allot">
         <span class="number-marker">3 / 9</span>
     </div>
     <div class="tweet">
@@ -47,7 +47,7 @@ twitter-thread: true
             Por otro lado, si accedes al otro dominio, todo correcto (de hecho te fuerza
             a HTTPS que con el otro no pasa).
         </p>
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread5.jpeg" alt="Mirror web de Sci-hub" title="Sci-hub web">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread5.jpeg" alt="Mirror web de Sci-hub" title="Sci-hub web">
         <span class="number-marker">4 / 9</span>
     </div>
     <div class="tweet">
@@ -57,8 +57,8 @@ twitter-thread: true
             ¿verdad? Si buscas por GeoIP se puede ver fácilmente que pertenecen a la 
             misma compañía.
         </p>
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread6.png" alt="Consulta de DNS para el dominio de sci-hub" title="nslookup sci-hub">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread7.png" alt="Información mostrada por geoip para la IP de Sci-hub" title="geoip ip sci-hub">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread6.png" alt="Consulta de DNS para el dominio de sci-hub" title="nslookup sci-hub">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread7.png" alt="Información mostrada por geoip para la IP de Sci-hub" title="geoip ip sci-hub">
         <span class="number-marker">5 / 9</span>
     </div>
     <div class="tweet">
@@ -86,9 +86,9 @@ twitter-thread: true
             Holanda). Miremos pues en los tres casos: el primero en plano, el del 
             certificado falso y el que funciona bien.
         </p>
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread8.png" alt="Demostración de TTL ruta texto plano" title="TTL captura 1">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread9.png" alt="Demostración de TTL ruta certificado cambiado" title="TTL captura 2">
-        <img src="{{site.url}}/assets/twitter/allot_censorship/censorship-thread10.png" alt="Demostración de TTL ruta de web sin alterar" title="TTL captura 3">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread8.png" alt="Demostración de TTL ruta texto plano" title="TTL captura 1">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread9.png" alt="Demostración de TTL ruta certificado cambiado" title="TTL captura 2">
+        <img src="{{site.url}}/assets/images/twitter/allot_censorship/censorship-thread10.png" alt="Demostración de TTL ruta de web sin alterar" title="TTL captura 3">
         <span class="number-marker">8 / 9</span>
     </div>
     <div class="tweet">

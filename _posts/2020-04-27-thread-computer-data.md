@@ -24,7 +24,7 @@ twitter-thread: true
             de química y física por detrás interesante :O ). Os pongo un gif con su 
             representación y os lo explico abajo.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread1.gif" alt="Funcionamiento transistor" title="GIF transistor">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread1.gif" alt="Funcionamiento transistor" title="GIF transistor">
         <span class="number-marker">2 / 38</span>
     </div>
         <div class="tweet">
@@ -68,7 +68,7 @@ twitter-thread: true
             Ahora se vienen las mates, voy a poneros este ejemplo. Tenemos un número con 
             varios dígitos y según la posición que ocupen tendrán un valor u otro.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread2.jpeg" alt="Descomposición de entero en binario" title="Entero a binario">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread2.jpeg" alt="Descomposición de entero en binario" title="Entero a binario">
         <span class="number-marker">7 / 38</span>
     </div>
         <div class="tweet">
@@ -149,7 +149,7 @@ twitter-thread: true
             Una demostración de esto en C, podemos ver que se usan 32 bits para los nº, 
             los "enteros" en C usan este tamaño de palabra.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread3.png" alt="Demostración en C número entero negativo" title="Formato entero negativo en C">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread3.png" alt="Demostración en C número entero negativo" title="Formato entero negativo en C">
         <span class="number-marker">16 / 38</span>
     </div>
         <div class="tweet">
@@ -168,7 +168,7 @@ twitter-thread: true
             Aquí tenéis un enlace para jugar con la explicación: 
             <a href="https://h-schmidt.net/FloatConverter">https://h-schmidt.net/FloatConverter</a>
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread4.jpeg" alt="Diagrama de bloques IEEE 754" title="Formato IEEE 754">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread4.jpeg" alt="Diagrama de bloques IEEE 754" title="Formato IEEE 754">
         <span class="number-marker">18 / 38</span>
     </div>
         <div class="tweet">
@@ -187,7 +187,7 @@ twitter-thread: true
             números a caracteres y se usaban 7 bits en total. Con esto puedes obtener 128
             caracteres diferentes.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread5.jpeg" alt="Tabla de valores ASCII" title="Tabla ASCII">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread5.jpeg" alt="Tabla de valores ASCII" title="Tabla ASCII">
         <span class="number-marker">20 / 38</span>
     </div>
         <div class="tweet">
@@ -209,7 +209,7 @@ twitter-thread: true
             fichero de texto plano. Podéis ver que cada 2 dígitos hexadecimales son una 
             letra, el valor que podéis comparar en la tabla ASCII.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread6.png" alt="Ejecución del comando xxd sobre un fichero de texto plano" title="xxd ascii">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread6.png" alt="Ejecución del comando xxd sobre un fichero de texto plano" title="xxd ascii">
         <span class="number-marker">22 / 38</span>
     </div>
         <div class="tweet">
@@ -227,8 +227,8 @@ twitter-thread: true
             extensión le da igual, mirad dos ejemplos, el de un fichero de texto normal y
             una imagen quitándole la extensión para ver qué pasa:
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread7.png" alt="Comando file sobre texto plano" title="File sobre texto plano">
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread8.png" alt="Comando file sobre fichero sin extensión reconociendo el formato" title="File sobre png sin extensión">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread7.png" alt="Comando file sobre texto plano" title="File sobre texto plano">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread8.png" alt="Comando file sobre fichero sin extensión reconociendo el formato" title="File sobre png sin extensión">
         <span class="number-marker">24 / 38</span>
     </div>
         <div class="tweet">
@@ -238,7 +238,7 @@ twitter-thread: true
             fichero, que identifica de forma única el tipo de fichero, ¡a veces incluso 
             son carácteres legibles! Os lo demuestro:
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread9.png" alt="mostrando magic number de fichero con xxd" title="Magic number de png">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread9.png" alt="mostrando magic number de fichero con xxd" title="Magic number de png">
         <span class="number-marker">25 / 38</span>
     </div>
         <div class="tweet">
@@ -257,8 +257,8 @@ twitter-thread: true
             editar binarios puros "hexedit", vamos a quitarle el número mágico a ver qué 
             pasa. Incapaz de decir otra cosa que no sea "data" 😎
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread10.png" alt="Alterando el magic number de un fichero con hexedit" title="comando hexedit sobre fichero png">
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread11.png" alt="Resultado de ejecutar file sobre fichero png con el magic number alterado" title="comando file sobre fichero con magic number modificado">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread10.png" alt="Alterando el magic number de un fichero con hexedit" title="comando hexedit sobre fichero png">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread11.png" alt="Resultado de ejecutar file sobre fichero png con el magic number alterado" title="comando file sobre fichero con magic number modificado">
         <span class="number-marker">27 / 38</span>
     </div>
         <div class="tweet">
@@ -285,8 +285,8 @@ twitter-thread: true
             comando útil de linux "strings", te saca todas las frases legibles de un 
             fichero independientemente del formato.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread12.png" alt="Introducción a fichero ELF" title="fichero elf">
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread13.png" alt="Comando strings sobre fichero elf" title="Comando strings">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread12.png" alt="Introducción a fichero ELF" title="fichero elf">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread13.png" alt="Comando strings sobre fichero elf" title="Comando strings">
         <span class="number-marker">30 / 38</span>
     </div>
         <div class="tweet">
@@ -314,8 +314,8 @@ twitter-thread: true
             el compilador coge tu código (independiente de la máquina que tengas) y lo 
             convierte para que lo reconozca tu máquina.
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread14.png" alt="Código fuente básico en C" title="Código C básico">
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread15.png" alt="Comando xxd sobre fichero compilado ELF" title="xxd sobre ELF">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread14.png" alt="Código fuente básico en C" title="Código C básico">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread15.png" alt="Comando xxd sobre fichero compilado ELF" title="xxd sobre ELF">
         <span class="number-marker">33 / 38</span>
     </div>
         <div class="tweet">
@@ -343,7 +343,7 @@ twitter-thread: true
             muestro un desensamblado del código anterior una vez compilado (con el 
             programa radare2):
         </p>
-        <img src="{{site.url}}/assets/twitter/pc_info/pc-info-thread16.png" alt="decompilado de función main con radare" title="radare sobre método main">
+        <img src="{{site.url}}/assets/images/twitter/pc_info/pc-info-thread16.png" alt="decompilado de función main con radare" title="radare sobre método main">
         <span class="number-marker">36 / 38</span>
     </div>
         <div class="tweet">

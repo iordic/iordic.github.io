@@ -42,7 +42,7 @@ separados. Allá vamos.
             servidor de intermediario y el otro transfiriendo directamente ese fichero entre máquinas
             iguales. Primero veamos el esquema con servidor intermediario:
         </p>
-        <img src="{{site.url}}/assets/twitter/torrent/torrent-thread1.png" alt="Compartir ficheros mediante servidor" title="Piratería centralizada">
+        <img src="{{site.url}}/assets/images/twitter/torrent/torrent-thread1.png" alt="Compartir ficheros mediante servidor" title="Piratería centralizada">
         <span class="number-marker">3 / 23</span>
     </div>
     <div class="tweet">
@@ -60,7 +60,7 @@ separados. Allá vamos.
         ayudar a que las conexiones puedan llevarse a cabo. Aunque este no almacena el fichero
         original.
         </p>
-        <img src="{{site.url}}/assets/twitter/torrent/torrent-thread2.png" alt="Compartir ficheros mediante p2p con tracker" title="Piratería descentralizada">
+        <img src="{{site.url}}/assets/images/twitter/torrent/torrent-thread2.png" alt="Compartir ficheros mediante p2p con tracker" title="Piratería descentralizada">
         <span class="number-marker">5 / 23</span>
     </div>
     <div class="tweet">
@@ -129,8 +129,8 @@ separados. Allá vamos.
             unas capturas hechas con el programa qbittorrent descargando dos ficheros completamente 
             legales (si, existen de esos xD):
         </p>
-        <img src="{{site.url}}/assets/twitter/torrent/torrent-thread3.png" alt="Descargando con qbittorrent" title="Pantalla principal Qbittorrent">
-        <img src="{{site.url}}/assets/twitter/torrent/torrent-thread4.png" alt="Lista de trackers mostrada en qbittorrent" title="Lista de trackers">
+        <img src="{{site.url}}/assets/images/twitter/torrent/torrent-thread3.png" alt="Descargando con qbittorrent" title="Pantalla principal Qbittorrent">
+        <img src="{{site.url}}/assets/images/twitter/torrent/torrent-thread4.png" alt="Lista de trackers mostrada en qbittorrent" title="Lista de trackers">
         <span class="number-marker">13 / 23</span>
     </div>
     <div class="tweet">
@@ -175,7 +175,7 @@ separados. Allá vamos.
             solo tienes que ponerte a bajar una película e ir apuntando IPs en una lista de culpables
             xD:
         </p>
-        <img src="{{site.url}}/assets/twitter/torrent/torrent-thread5.png" alt="Listado de pares mostrado por qbittorrent" title="Listado de pares en torrent">
+        <img src="{{site.url}}/assets/images/twitter/torrent/torrent-thread5.png" alt="Listado de pares mostrado por qbittorrent" title="Listado de pares en torrent">
         <span class="number-marker">18 / 23</span>
     </div>
     <div class="tweet">

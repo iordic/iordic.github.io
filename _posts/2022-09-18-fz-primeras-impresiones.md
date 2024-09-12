@@ -14,7 +14,7 @@ ha llevado del cacharro.
 Es básicamente un cacharro portable y embebido que cuenta con un microcontrolador STM32.
 De todos modos la imagen de su [propia web](https://flipperzero.one/) lo resume perfecto:
 
-![Vista explosionada del Flipper Zero]({{site.url}}/assets/fz_primeras_impresiones/explosion-singed-200.png "Vista explosionada del Flipper Zero")
+![Vista explosionada del Flipper Zero]({{site.url}}/assets/images/fz_primeras_impresiones/explosion-singed-200.png "Vista explosionada del Flipper Zero")
 
 En resumen:
 * Módulo de **radiofrecuencia** para bandas por debajo de 1 GHz (aquí lo típico 433 MHz).
@@ -36,7 +36,7 @@ mas fancy, de hecho ya hay gente poniéndole musiquitas y eso con reproductor.
 Aquí ya empiezo a desvariar con lo que yo he visto y pienso. Mucha gente quiere comprarlo
 porque con tanto hype piensa que el cacharro será algo cómo esto (dramatización):
 
-![Guante de hackerman de la peli Kung Fury]({{site.url}}/assets/fz_primeras_impresiones/power_glove.jpeg "hackerman power glove")
+![Guante de hackerman de la peli Kung Fury]({{site.url}}/assets/images/fz_primeras_impresiones/power_glove.jpeg "hackerman power glove")
 
 Es decir, un dispositivo todopoderoso que los "pentesters" van a usar para hackear todos
 los dispositivos del mundo, algo así como el anillo único de la electrónica. Luego hay
@@ -52,7 +52,7 @@ estos que tenían nuestros antiguos móviles para colgarles un colgante a travé
 A mi eso me parece de uso obligatorio, no concibo la comodidad sin poder cogerlo de ahí,
 si te pillas uno comprate una correa del aliexpress (que no lo trae por desgracia). ¡Mirad!:
 
-![Colgante para el Flipper Zero]({{site.url}}/assets/fz_primeras_impresiones/colgante_fz.png "flipper zero con colgante")
+![Colgante para el Flipper Zero]({{site.url}}/assets/images/fz_primeras_impresiones/colgante_fz.png "flipper zero con colgante")
 
 Yo lo cogí prestado de una powerbank que tengo por ahí estropeada (intuyo que con correa
 sea más cómodo aún). En fin, vamos a lo importante, voy a hacer subapartados para que sea
@@ -155,7 +155,7 @@ Flipper a través del GPIO:
   de hecho creo que se podría hacer mejor formato que el del repositorio este. En su día
   monté uno casero con un nodemcu que tenía por casa y lo regalé a un amigo:
 
-  ![ESP8266 deauther casero]({{site.url}}/assets/fz_primeras_impresiones/nodemcu_deauther.png "ESP8266 deauther casero")
+  ![ESP8266 deauther casero]({{site.url}}/assets/images/fz_primeras_impresiones/nodemcu_deauther.png "ESP8266 deauther casero")
 
   La adaptación de este bicho al flipper te quita la parte de tener que buscarte la vida
   con ponerle botones, pantallita y batería usando las del flipper, y la verdad que es de

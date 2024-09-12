@@ -22,7 +22,7 @@ Una de estas herramientas es el comando *xxd* que muestra todos los bytes del co
 de un fichero en hexadecimal y su traducción a ASCII. Lo he usado para las pruebas y voy
 a explicarlo con una captura para que no te pierdas. Veamos un ejemplo:
 
-![captura de xxd]({{site.url}}/assets/vernam/xxd.png)
+![captura de xxd]({{site.url}}/assets/images/vernam/xxd.png)
 
 Vale, voy a explicar las secciones de *xxd* según los colores que he marcado:
 
@@ -49,7 +49,7 @@ Lo de la taba ASCII es para comprender los ejemplos, a Vernam le da igual si tu 
 tiene texto o una foto de tu gato. He joseado este esquema de internet porque era el más
 fácil de entender:
 
-![esquema vernam]({{site.url}}/assets/vernam/vernam_schema.gif)
+![esquema vernam]({{site.url}}/assets/images/vernam/vernam_schema.gif)
 
 Explico un poco como sería: 
 1. Creamos una clave de cifrado que tiene el mismo tamaño (en bytes) que el mensaje que
@@ -120,13 +120,13 @@ Creamos un fichero de texto, así será más ilustrativo. Después usamos el scr
 cifrar ese fichero, con lo que nos generará el fichero que contiene la clave y una copia 
 con el fichero cifrado. Aquí una captura:
 
-![Ejecución cifrado]({{site.url}}/assets/vernam/cifrado.png)
+![Ejecución cifrado]({{site.url}}/assets/images/vernam/cifrado.png)
 
 ## Descifrar
 Eliminamos el fichero de texto original para quedarnos solo con el fichero cifrado, así
 podemos comprobar que funciona el script, descifrando y obteniendo el resultado original:
 
-![Ejecución descifrado]({{site.url}}/assets/vernam/descifrado.png)
+![Ejecución descifrado]({{site.url}}/assets/images/vernam/descifrado.png)
 
 
 # ¿Por qué no hay que repetir la clave nunca en Vernam?
@@ -145,14 +145,14 @@ Os lo voy a demostrar. Para ello creamos un segundo fichero de texto plano que t
 exactamente la misma longitud que el fichero usado anteriormente y lo comprobamos por si
 acaso:
 
-![Comprobación fichero 2]({{site.url}}/assets/vernam/comprobaciones.png)
+![Comprobación fichero 2]({{site.url}}/assets/images/vernam/comprobaciones.png)
 
 Como vemos tenemos dos ficheros con textos diferentes pero exactamente la misma longitud
 entre ellos y la misma que la clave. Ahora para realizar la demostración, ciframos el
 segundo fichero, borramos el segundo fichero original y la clave de cifrado. Recuerda que
 en este paso tenemos el fichero uno cifrado y su equivalente sin cifrar:
 
-![Preparación para la prueba]({{site.url}}/assets/vernam/preparacion.png)
+![Preparación para la prueba]({{site.url}}/assets/images/vernam/preparacion.png)
 
 Vale, ahora tenemos los siguientes ficheros:
 * Fichero 1 cifrado
@@ -163,14 +163,14 @@ Ahora usamos uno de los dos ficheros 1 como clave y el otro como si fuese el fic
 cifrado. No importa el orden (el orden de los factores no altera el producto ;D). Con
 esto obtendremos un fichero que será la clave que habíamos usado para cifrarlos:
 
-![Extracción de la clave]({{site.url}}/assets/vernam/extraccion.png)
+![Extracción de la clave]({{site.url}}/assets/images/vernam/extraccion.png)
 
 (Lo de mover el fichero lo hago para que al "descifrar" no sobreescriba el fichero 
 original, pero esto no importa mucho, una vez tengamos ya la clave nos daría igual).
 
 Una vez obtenida la clave la usamos como para descifrar el fichero 2:
 
-![Descifrado del fichero 2]({{site.url}}/assets/vernam/descifrado2.png)
+![Descifrado del fichero 2]({{site.url}}/assets/images/vernam/descifrado2.png)
 
 Y podemos comprobar que el fichero 2 se ha descifrado perfectamente :O.
 

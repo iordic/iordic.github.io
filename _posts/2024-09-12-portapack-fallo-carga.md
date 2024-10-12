@@ -4,7 +4,7 @@ description: "Buscando al culpable de la mala carga de batería del portapack"
 date:   2024-09-12 17:00
 categories: electronica
 header:
-  og_image: /assets/images/portapack/portapack_mayhem_and_h2_plus.png
+  og_image: /assets/images/portapack/og_image.jpg
 ---
 Vale, quizás no fuese el portapack, fui yo porque soy un patoso y tuve que coger el
 soldador con las manos pero... ¿siempre se me tienen que estar jodiendo todos los 

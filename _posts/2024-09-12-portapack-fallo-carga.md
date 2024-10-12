@@ -3,6 +3,8 @@ title:  "¡El portapack me quemó los dedos!"
 description: "Buscando al culpable de la mala carga de batería del portapack"
 date:   2024-09-12 17:00
 categories: electronica
+header:
+  og_image: /assets/images/portapack/portapack_mayhem_and_h2_plus.png
 ---
 Vale, quizás no fuese el portapack, fui yo porque soy un patoso y tuve que coger el
 soldador con las manos pero... ¿siempre se me tienen que estar jodiendo todos los 
@@ -192,6 +194,71 @@ este blog que espero sean más interesantes, a ver si me pongo a ello.
 
 ¡Qué tengáis buen inicio de año lectivo!
 
+<hr>
+
+### Update (12/10/2024)
+¡Ya me han llegado las baterías y el portapack! El universo sigue conspirando contra mi.
+
+Al final como me sobraba una de las placas y la otra si funcionaba he comprado otro
+hackrf con una revisión más actualizada (estaba de oferta a 70€). Según leí, esta (r10) 
+no trae mejoras, si miras el changelog de la r9 a la r10 han cambiado los componentes de
+esta última a los que tenía la r8. Y decían en las discusiones de github que era por 
+problemas de stock con la escasez de chips.
+
+Aquí una foto de las dos revisiones:
+
+![HacRF r9 y r10]({{site.url}}/assets/images/portapack/hackrf_r9_r10.png "hackrf clónicos revisiones r9 y r10 respectivamente")
+
+Usaré la nueva con el mayhem y la anterior como estaba. Ya que estamos pongo una foto de
+ambos portapack por delante y por detrás para verlo con perspectiva (he juntado las 
+fotos, no tengo 4 :p):
+
+![Portapack H2+ y H2M (ssólo placas)]({{site.url}}/assets/images/portapack/portapack_h2p_h2m.png "Portapack H2+ y H2M por delante y por detrás")
+
+Pedí también carcasa, altavoz (porque el mayhem no lo trae instalado) y, una antena y 
+estuche cutres. ¡Y salió mal también! La antena baila porque el tornillo no la aprieta
+bien y de la carcasa me faltaban las tuercas de acoplamiento, tuve que improvisar como se
+ve en la imagen de debajo unos tornillos de metal con tuerca para cerrarla. Y claro, pues
+se lo encasqueté al portapack no tan chulo.
+
+Y del estuche qué decir, pensé que entraría bien y tampoco, si es que...
+
+Después de probar el mayhem edition (H2M por abreviar) he de decir que lo prefiero, y no
+solo por estética: los conectores que usa para altavoz y batería son jst 2.0, que es más 
+común/normal en este tipo de cacharro. Además la pila también es diferente, en el H2+ es 
+una más rara (**CR1220**) mientras que en el H2M se usa la que cualquiera que sea 
+mínimamente chapucillas informático ha tocado alguna vez (**CR2032**).
+
+![Estándares H2M y H2+]({{site.url}}/assets/images/portapack/portapack_connectors_batteries.png "Diferentes conectores portapack y pilas. A la izquierda el h2+ y a la derecha el h2m")
+
+Aquí se puede ver todo en conjunto ensamblado:
+
+![Portapack H2M y H2+]({{site.url}}/assets/images/portapack/portapack_mayhem_and_h2_plus.png "Portapack Mayhem edition junto al H2+ y las dos baterías")
+
+Dije que iba a dejar colgando el apaño que hice para cargar la batería pero entre el post
+original y la fecha actual se me partió uno de los cables de un tirón, así que ya lo he
+dejado "bien" para poder ensamblarlo y punto.
+
+No sé muy bien que voy a hacer con dos portapacks (no sé si vender o donar uno). Y
+sobretodo aún menos que hacer con esas dos baterías que ahora me sobran. :(
+
+Antes de cerrar, y para continuar con la serie de catastróficas desdichas que he tenido
+con todo esto, decir que unos días después de comprar la placa del mayhem van los
+desarrolladores y sacan una versión nueva con bastantes mejoras y encima una placa hackrf
+que han tuneado poniéndole puerto usb-c... :expressionless:
+
+![Portapack H4M]({{site.url}}/assets/images/portapack/portapack_h4m.png "Nueva versión del portapack mayhem 4")
+
+Me mola lo de tener GPIO para meter módulos, quieren acercarse a flipper zero en ese
+aspecto. También lo de tener el interruptor para apagar y encender, que lo de que se
+encienda con el pulsador del encoder es un coñazo, se enciende dentro de la funda a veces.
+Tiene además por fin una forma menos tosca de medir el porcentaje de batería por lo que 
+veo. Y lo del tipo C era un must que tardaremos en ver en la placa de hackrf original.
+los botones que estaban a la derecha ahora rodean al encoder y este es más plano, eso
+tambiéne es guay.
+
+En fin, como véis todo lo que podía salir mal salió mal... Este post ha sido más un 
+diario que otra cosa pero espero que a quién lo lea le haya entretenido.
 
 # Enlaces de interés
 * [HackRF](https://greatscottgadgets.com/hackrf/)

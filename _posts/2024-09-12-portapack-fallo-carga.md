@@ -245,7 +245,7 @@ sobretodo aún menos que hacer con esas dos baterías que ahora me sobran. :(
 Antes de cerrar, y para continuar con la serie de catastróficas desdichas que he tenido
 con todo esto, decir que unos días después de comprar la placa del mayhem van los
 desarrolladores y sacan una versión nueva con bastantes mejoras y encima una placa hackrf
-que han tuneado poniéndole puerto usb-c... :expressionless:
+que han tuneado poniéndole puerto usb-c... 😑
 
 ![Portapack H4M]({{site.url}}/assets/images/portapack/portapack_h4m.png "Nueva versión del portapack mayhem 4")
 
@@ -259,6 +259,31 @@ tambiéne es guay.
 
 En fin, como véis todo lo que podía salir mal salió mal... Este post ha sido más un 
 diario que otra cosa pero espero que a quién lo lea le haya entretenido.
+
+### Update (01/11/2024)
+He conseguido pedir las tuercas de acoplamiento para la carcasa del portapack. Además, al
+final a causa de eso me dieron el reembolso. Así que la carcasa transparente me ha salido
+barata 🤠.
+
+Me costó un poco encontrarlo en aliexpress, porque tienen que cuadrar las medidas 
+exactas. Desde aquí digo ya que gracias bendito calibre del lidl para medir las cosas con
+precisión.
+
+Si alguien necesita las referencias son tuercas de nylon de 3x12mm las que acoplan 
+perfecto (los tornillos son M3 desos).
+
+Aquí van unas fotos para que veáis que encaja perfecto:
+
+![Tuercas acoplamiento nylon 3x12mm]({{site.url}}/assets/images/portapack/tuercas_acoplamiento_3_12.jpg "Tuercas de acoplamiento de nylon de 3x12mm")
+
+![Tuerca acoplamiento sin carcasa]({{site.url}}/assets/images/portapack/tuerca_portapack_sin_carcasa.jpg "Probando tuerca de acoplamiento sin poner la carcasa")
+
+![Tuerca acoplamiento con carcasa]({{site.url}}/assets/images/portapack/tuerca_portapack_con_carcasa.jpg "Probando tuerca de acoplamiento poniendo la carcasa")
+
+Dejo además una captura de Aliexpress por si sirve de ayuda, no pongo el enlace porque
+total como acaban desapareciendo me parece inútil:
+
+![Captura página aliexpress]({{site.url}}/assets/images/portapack/aliexpress_screenshot_nylon.png "Captura de la página de aliexpress")
 
 # Enlaces de interés
 * [HackRF](https://greatscottgadgets.com/hackrf/)

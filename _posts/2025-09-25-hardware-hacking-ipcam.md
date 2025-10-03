@@ -483,7 +483,7 @@ tirar mano de otro viejo amigo (*radare2*).
 
 ![radare2 -A wifidaemon]({{site.url}}/assets/images/hacking_ipcam/r2_wifidaemon_init.png "Análisis de wifidaemon con radare2")
 
-Y voy a hacer uno de mis diagramillas con los pasos que he hecho para sacar info del binariosto:
+Y voy a hacer uno de mis diagramillas con los pasos que he hecho para sacar info del binario:
 
 ![wifidaemon using encoder]({{site.url}}/assets/images/hacking_ipcam/encoder_uses_at_wifidaemon.png "Usos de encoder dentro de wifidaemon")
 
